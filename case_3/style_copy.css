@@ -11,8 +11,7 @@
     --main-button-text: rgb(224, 224, 224);
   }
 
-html,
-body{
+html{
     height: 100vh;
     width: 100vw;
     
@@ -45,7 +44,6 @@ body{
 
 
 .main-area {
-    margin-top: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;

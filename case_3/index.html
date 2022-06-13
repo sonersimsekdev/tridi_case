@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
     <link rel="stylesheet" href="style_copy.css">
     <title>Document</title>
 </head>
 <body>
 
     <div class="main-area">
-       
-       
-        <button id="disableB" onclick={disableFilterBlur()} class="button-spec">disable</button>
-        <button id="enableB" onclick={addFilterBlur()} class="button-spec">enable</button>
+       <div class="">
         
-        <div><img id="demoImg" class="" src="https://picsum.photos/700" alt=""></div>
-        <div><img src="https://picsum.photos/700" class="" alt=""></div>
-        <div><img src="https://picsum.photos/700" class="" alt=""></div>
+       </div>
+       <div>
+        <button id="disableB" onclick={disableScrolling()} class="button-spec">disable</button>
+        <button id="enableB" onclick={enableScrolling()} class="button-spec">enable</button>
+       </div>
+       
+        <div><img  class="" src="https://picsum.photos/400" alt=""></div>
+        <div><img src="https://picsum.photos/400" class="" alt=""></div>
+        <div><img src="https://picsum.photos/400" class="" alt=""></div>
+        <h1 id="showScroll">Welcome</h1>
+        <div><img id="demoImg" src="https://picsum.photos/400" class="" alt=""></div>
+        <div><img src="https://picsum.photos/400" class="" alt=""></div>
+        <div><img src="https://picsum.photos/400" class="" alt=""></div>
+        <div><img src="https://picsum.photos/400" class="" alt=""></div>
     </div>
 
     <script src="script.js"></script>
